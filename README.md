@@ -76,7 +76,8 @@ O projeto consistirá em 3 grandes partes:
 
 > Overview da aplicação.
 
-![Video da Aplicação](https://drive.google.com/file/d/1YKzFZ90-5bAQyqrtwHJfDY6FvnYpnZ4c/view)
+!
+[Video da Aplicação](https://drive.google.com/file/d/1YKzFZ90-5bAQyqrtwHJfDY6FvnYpnZ4c/view)
 
 ## 📲 Link do deploy
 
