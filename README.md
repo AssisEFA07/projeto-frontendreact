@@ -81,7 +81,7 @@ O projeto consistirá em 3 grandes partes:
 
 ## 📲 Link do deploy
 
-Use a aplicação em [Link do deploy]() 
+Use a aplicação em [https://projeto-frontendreact-k7qegt7ks-assisefa07.vercel.app/](https://projeto-frontendreact-k7qegt7ks-assisefa07.vercel.app/) 
 
 ## 📑 Sobre o projeto
 
