@@ -1,0 +1,124 @@
+body{
+   background-image: linear-gradient( -110grad, #FFFFFF,#215BF0,#252939);
+   width: 100%;
+ }
+
+.shopTitle {
+  margin-top: 15vh;
+  text-align: center;
+  font-size: 40px;
+  line-height: 12vh;
+}
+.products {
+  width: 100%;
+  height: auto; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  margin-top: 25px;
+}
+
+.product {
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  width: 400px;
+  border-radius: 8px;
+}
+
+.product .description {
+  text-align: center;
+  color:#0A0A0B;
+  font-size: larger;
+}
+
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  margin: 10px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+.searchBar{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchBar > h3 {
+  color: #FFFFFF;
+  align-self: center;
+  margin-bottom: 25px;
+}
+
+.searchBar  form {
+  width: 85%;
+  display: flex;
+  justify-content:space-evenly;
+  margin-right: 4%;
+  margin-left: 2%;
+}
+
+.order {
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color:#0A0A0B;
+  font-size: larger;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+form input {
+  /* width: 100%; */
+  height: 30px;
+  outline: none;
+  font-family: inherit;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 2px solid rgba(255,255,255, 0.1);
+  padding: 0 20px 0 20px;
+  margin-bottom: 2%;
+ }
+
+ input:focus{
+  border-color: #157ae1;
+}
+
+select {
+  height: 30px;
+  outline: none;
+  font-family: inherit;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 2px solid rgba(255,255,255, 0.1);
+  padding: 0 20px 0 20px;
+  margin-bottom: 2%;
+}
+
+/*resposnsividade*/
