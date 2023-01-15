@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/AssisEFA07/projeto-frontendreact/static/css/main.2d53cbcd.css",
+    "main.js": "/AssisEFA07/projeto-frontendreact/static/js/main.b5a110b5.js",
+    "static/media/1.png": "/AssisEFA07/projeto-frontendreact/static/media/1.f16ddf8a86afd6c5a3d5.png",
+    "static/media/5.png": "/AssisEFA07/projeto-frontendreact/static/media/5.4e1c3d01bebd41d18191.png",
+    "static/media/3.png": "/AssisEFA07/projeto-frontendreact/static/media/3.6ed2c74decc3e42879c8.png",
+    "static/media/logo512.png": "/AssisEFA07/projeto-frontendreact/static/media/logo512.902ef4b2971fdbec4e54.png",
+    "static/media/8.webp": "/AssisEFA07/projeto-frontendreact/static/media/8.2349f1d8cb73acb39e00.webp",
+    "static/media/7.webp": "/AssisEFA07/projeto-frontendreact/static/media/7.818da9d5f3f2608b18aa.webp",
+    "static/media/4.png": "/AssisEFA07/projeto-frontendreact/static/media/4.897670209eb1ace4f353.png",
+    "static/media/2.png": "/AssisEFA07/projeto-frontendreact/static/media/2.a8c9e70cf055211546cd.png",
+    "static/media/6.webp": "/AssisEFA07/projeto-frontendreact/static/media/6.62408f0b2e85904b32b7.webp",
+    "static/media/polar2.jpeg": "/AssisEFA07/projeto-frontendreact/static/media/polar2.026aa1cebaaefa41206e.jpeg",
+    "index.html": "/AssisEFA07/projeto-frontendreact/index.html",
+    "main.2d53cbcd.css.map": "/AssisEFA07/projeto-frontendreact/static/css/main.2d53cbcd.css.map",
+    "main.b5a110b5.js.map": "/AssisEFA07/projeto-frontendreact/static/js/main.b5a110b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d53cbcd.css",
+    "static/js/main.b5a110b5.js"
+  ]
+}
