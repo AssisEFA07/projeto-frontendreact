@@ -1,0 +1,94 @@
+.container {
+    min-height: 100vh;
+  }
+  
+.container h1 {
+    color: #FFFFFF;
+}
+.productInfo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 8px;
+}
+
+.productInfo h1 {
+    margin: 14px 0;
+    color: #FFFFFF;
+}
+
+.productInfo img {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+}
+
+.productInfo h3 {
+    margin: 14px 0 ;
+    color: #FFFFFF;
+}
+
+.productInfo span{
+    margin: 8px 0 ; 
+    color:#FFFFFF
+}
+
+.areaBotoes {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.areaBotoes > button{   
+    text-decoration: none;    
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin:0 10px 10px 0;
+    cursor: pointer;
+    transition: all 0.5s;  
+   
+}
+
+.areaBotoes button:hover {
+    background-color: #215BF0;
+    color: #FFFFFF;
+} 
+
+.areaBotoes button a{
+    text-decoration: none;
+    color:#0A0A0B; 
+        transition: all 0.5s;  
+}
+
+.areaBotoes button a {
+    color: #FFFFFF;
+}
+
+.areaBotoes button a:hover {
+    color: #FFFFFF;
+}
+
+
+.countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .addToCartBttn {
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: all 0.5s;  
+  }
+  

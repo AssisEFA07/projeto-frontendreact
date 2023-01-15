@@ -1,4 +1,4 @@
-# projeto-frontendreact
+# Enunciado projeto-frontendreact
 
 Esse é o projeto de introdução aos fundamentos do React. Aqui, vamos praticar a estrutura do que consideramos a estrutura do React. O objetivo é que funcione como o front-end de um E-Commerce
 
@@ -15,7 +15,6 @@ Esse é o projeto de introdução aos fundamentos do React. Aqui, vamos praticar
 
 O Astrodev deixou um testamento e essa foi a herança deixada pra vocês:
 
-```
 Estudantes do meu coração,
 Estou querendo montar um e-commerce de itens espaciais e vocês serão responsáveis por essa construção. 
 Pretendo montar diferentes linhas de produtos. 
@@ -34,8 +33,6 @@ Escolham uma linha dentre essas, e criem um e-commerce de acordo com a lista de 
 **O prazo é até sexta, 23h59.** 
 
 Att.
-```
-
 # Requisitos
 
 O projeto consistirá em 3 grandes partes:
@@ -53,19 +50,8 @@ O projeto consistirá em 3 grandes partes:
 3. Filtro
     - Por valor mínimo e máximo
     - Por nome do produto
-
-Exemplo de estruturação de **UM** produto (Lembrem-se que vocês terão uma lista contendo todos):
-
-```jsx
-{
-	id: 1,
-	name: "Foguete da Missão Apollo 11",
-	value: 10000.0,
-	imageUrl: "https://picsum.photos/200/200",
-}
-```
-
 ### Lista de Requisitos
+
 - Home (Lista de Produtos)
     - [ ]  O usuário deve ser capaz de visualizar uma lista de produtos
     - [ ]  O usuário deve ser capaz de visualizar os dados do produto (nome, preço e imagem)
@@ -84,43 +70,71 @@ Exemplo de estruturação de **UM** produto (Lembrem-se que vocês terão uma li
     - [ ]  O usuário deve ser capaz de adicionar  filtros, busca e ordenação simultaneamente
     - [ ]  O usuário deve ser capaz de retornar à visualização sem filtros
     
- ### 
+# Resultado Final : 
 
-O layout da página é escolha de vocês! O exemplo abaixo é só uma implementação bemmm simples das funcionalidades, não se atenham a ele.
+# StarMan WebCommerce
 
-http://fluttering-coast.surge.sh/
+> Overview da aplicação.
+
+![Video da Aplicação](https://drive.google.com/file/d/1YKzFZ90-5bAQyqrtwHJfDY6FvnYpnZ4c/view)
+
+## 📲 Link do deploy
+
+Use a aplicação em [Link do deploy]() 
+
+## 📑 Sobre o projeto
+
+Projeto de introdução aos fundamentos do React. Procurou-se utilizar elementos fundamentais do que consideramos a estrutura do React visando construir o front-end de um E-Commerce. 
+
+Tecnologia: React JS
+Elementos
+- JSX
+- Componentes
+- Props
+- Estado
+- Fluxo de dados no React
+- Renderização de listas
+- Renderização condicional
+- localStorage
+
+## ✍🏻 Funcionalidades
+
+A aplicação conta com as seguintes funcionalidades:
+
+- Lista de produtos (naves espaciais)
+- pesquisa por nome, preço mínimo, preço máximo e combinações.
+- ordenação dos produtos por nome, preço crescente e decrescente.
+- página de detalhes do produto com links externos.
+- navegação inspirada em webcommerce.
+
+## 📆 Implementações futuras e melhorias
+
+Este é um projeto em desenvolvimento e ainda conta com melhorias e o incremento de outras funcionalidades, sendo elas:
+
+- Melhoria da arquitetura do código;
+- Uso de custon Hooks para limpar o código;
+- Uso de elementos globais de estilo visando reaproveitamento e uniformização visual;
+- construção mais eficiente e efetiva de responsividade da aplicação;
+- otimização da lógica de pesquisa. 
+
+## 🛠 Bibliotecas
+
+Utiliza as seguintes bibliotecas de suporte:
+
+- não utilizadas nesse projeto. 
  
 
-https://user-images.githubusercontent.com/11279432/197185533-14582ca3-9eb0-4a5a-b57c-b94913ff2dd6.mp4
+## 🖥 Contribuindo ou testando localmente 
 
+```
+# Clone o repositório 
 
+$ git clone github.com/seu-usuario/repositorio.git
+```
 
-    
-  ### Conseguiu terminar? Aqui temos alguns **desafios**
-  1. Salvar e Recuperar conteúdo do carrinho usando o `LocalStorage`;
-  2. Dediquem um tempo para melhorar o layout e a usabilidade do seu site! Se baseiem em outros e-commerces que vocês gostam para chegar em um resultado   mais próximo do padrão de design visto no mercado;
-  3. Se TODO O RESTO DO SITE  e os dois desafios anteriores estiverem funcionando, pensem: qual outra funcionalidade está faltando? Decidam o que vocês concordam que poderia ser uma boa adição à loja virtual (pode ser qualquer funcionalidade, desde que vocês consigam implementá-la). Todas as funcionalidades extras implementadas devem ser listadas e explicadas no readme do projeto para que possam ser avaliadas.
-  
-  ## Entrega
-  
-- Faça o fork desse repositório e realize o clone da sua cópia `seu-nome-de-usuario/projeto-frontendreact`.
-   <details>
-   <summary>Quer uma dica?</summary>
-   <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Ffork.png?alt=media&token=7030e997-246a-41fe-a75f-2a2ced61e54d" alt="Como adicionar o projeto no repositório"/>
-   </details>
-- Crie os arquivos do projeto dentro deste repo;
-- Execute o fluxo de entrega do git. **Lembre-se de abrir os PRs para seu próprio repositório.**
-- Para isso, você precisará fazer o projeto utilizando **branches**. Evite fazer as alterações direto na branch ```main```
-    <details>
-       <summary>Dúvidas sobre o Git & Github?</summary>
-       <p>Adiciomos um vídeo explicando o <strong>processo de entrega</strong> [do fork ao pull request] no Material Assincrono da <a href="https://classroom.google.com/w/NTM0NjA2NDg3MjIx/tc/NTM2NDg5NTQyODg4">A005 - Git e Github</a>. Esse vídeo também exemplifica situações que podem acontecer durante o fluxo de utilização do Git.</p>
-    </details>
-- Entregue o **link do repo** no [Formulário de entrega](https://forms.gle/S9XChPZravP3WdxL6) 
-- Utilize o **surge** para fazer o deploy do seu projeto.
+```
+# Instale as dependências 
 
-## Resultado Final:
-
-[Video da Aplicação](https://drive.google.com/file/d/1YKzFZ90-5bAQyqrtwHJfDY6FvnYpnZ4c/view)
-
-
+$ npm install
+```
 
