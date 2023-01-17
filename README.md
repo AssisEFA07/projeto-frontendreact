@@ -122,7 +122,9 @@ Este é um projeto em desenvolvimento e ainda conta com melhorias e o incremento
 
 Utiliza as seguintes bibliotecas de suporte:
 
-- não utilizadas nesse projeto. 
+- Material-UI
+- React Router
+- axios
  
 
 ## 🖥 Contribuindo ou testando localmente 
